@@ -1,0 +1,72 @@
+/* i */ - oznacza komentarz wieloliniowy.
+
+Linie zaczynające się od znaku # są dyrektywami interpretowanymi przez preprocesor. 
+
+int main( ) - Linia ta inicjuje deklarację funkcji głównej (main).
+Funkcja to inaczej zestaw instrukcji, który posiada swoją nazwę - w tym przypadku main.
+
+Nawias otwierający { wskazuje początek definicji funkcji głównej, nawias zamykający } oznacza koniec definicji funkcji.
+
+Typy znakowe - mogą reprezentować pojedynczy znak 'A', 'z'. 
+Najbardziej podstawowym typem znakowym jest char, który potrzebuje do przechowywania danych 1 bajt - 8 bitów.
+
+Typy całkowite - mogą przechowywać wartości całkowite takie jak 23, 2048.
+Typy całkowite istnieją w różnych rozmiarach i mogą to być typy ze znakiem i bez znaku, w zależności czy wspierają wartości ujemne czy nie.
+
+Typy zmiennoprzecinkowe - reprezentują wartości rzeczywiste takie jak np. 1.618033, 3.141592 z różną dokładnością w zależności od jednego z trzech wybranych typów zmiennoprzecinkowych.
+
+Typ bool - typ ten może reprezentować tylko dwa stany: prawda lub fałsz.
+
+int - przechowuje liczby całkowite (całkowite), bez miejsc po przecinku, takie jak 123 lub -123
+double - przechowuje liczby zmiennoprzecinkowe, z ułamkami dziesiętnymi, takimi jak 19,99 lub -19,99
+char - przechowuje pojedyncze znaki, takie jak 'a' lub 'B'. Wartości znaków są otoczone pojedynczymi cudzysłowami
+ciąg — przechowuje tekst, taki jak „Hello World”. Wartości ciągu są otoczone podwójnymi cudzysłowami
+bool - przechowuje wartości z dwoma stanami: prawda lub fałsz
+
++ 	dodawanie
+- 	odejmowanie
+* 	mnożenie
+/ 	dzielenie
+% 	modulo 
+
+== 	równy
+!= 	różny
+< 	mniejszy niż
+> 	większy niż
+<= 	mniejszy lub równy
+>= 	większy lub równy 
+
+cin 	Standardowy strumień wejścia
+cout 	Standardowy strumień wyjścia
+cerr 	Standardowy strumień błędów (wyjście)
+clog 	Standardowy strumień logów (wyjście) 
+
+Instrukcja warunkowa if
+
+Instrukcja warunkowa służy do podejmowania decyzji w programie.
+Dzięki tej konstrukcji językowej, programy stają się bardziej złożone (rozbudowane).
+if (a > 10) cout << "Zmienna a jest większa od 10";
+
+if (b == 64)
+{
+a = 0;
+b = 0;
+} 
+
+Składnia pętli for:
+for (inicjalizacja; warunek; aktualizacja)
+{
+instrukcje;
+}
+
+Składnia pętli do ... while:
+do
+{
+instrukcje;
+}
+while (warunek);
+
+
+
+
+
